@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+
+    <!-- TITLE -->
+    <title>Merry Christmas 2017</title>
+
+    <!-- META TAGS -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Joker Dark Knight - Mafia Sripts Vietnam" />
+    <meta name="description" content="Merry Christmas 2017!! - Project For 2017!" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/modal.css" />
+    <link rel="stylesheet" type="text/css" href="pagePiling.js/css/jquery.pagepiling.css" />
+    <link rel="stylesheet" type="text/css" href="pagePiling.js/css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="css/author.css" />
+</head>
+
+<body>
+    <!-- SANTA CLAUS FLY-->
+    <script type='text/javascript'>
+        $(function() {
+            $('html').append('<img id="halo" title="Happy Noel" style="cursor:pointer;position:fixed;z-index:99999" height="120" src="img/santa.gif"/>')
+            setInterval(function() {
+                var $X = Math.ceil(Math.random() * $(window).width())
+                var $Y = Math.ceil(Math.random() * $(window).height())
+                $('img#halo').animate({
+                    'left': $X,
+                    'top': $Y
+                }, 5000)
+            }, 5000)
+            $('img#halo').click(function() {
+                window.open('http://fb.com/MafiaScripts.VN', '')
+            })
+        })
+    </script>
+
+    <!-- MENU -->
+    <ul id="menu">
+        <li data-menuanchor="page1" class="active"><a href="#page1">HOME</a>
+        </li>
+        <li data-menuanchor="page2"><a href="#page2">WISHES</a>
+        </li>
+        <li data-menuanchor="page3"><a href="#page3">ABOUT</a>
+        </li>
+    </ul>
+
+    <!-- HOME / COUNTDOWN -->
+    <div id="pagepiling">
+        <div class="section" id="section1">
+            <div class="snowfall"></div>
+            <img src="img/santa_home.png" />
+            <p id="textsec1">Christmas is Coming............</p>
+            <iframe src="countdown.html" style="border:none;width:573px"></iframe>
+
+        </div>
+
+        <!-- WISHES -->
+        <div class="section" id="section2">
+
+
+            <div class="md-modal md-effect-11" id="modal-13">
+                <div class="md-content friends">
+                    <h3>For My Friends</h3>
+                    <div>
+                        Your Content Here...!
+                    </div>
+                    <img src="img/close.png" class="md-close" />
+                </div>
+            </div>
+            <div class="md-modal md-effect-11" id="modal-11">
+                <div class="md-content family">
+                    <h3>For My Family</h3>
+                    <div>
+                        Your Content Here...!
+                    </div>
+                    <img src="img/close.png" class="md-close" />
+                </div>
+            </div>
+            <div class="md-modal md-effect-11" id="modal-6">
+                <div class="md-content crush">
+                    <h3>For My Love</h3>
+                    <div>
+                        Your Content Here...!
+                    </div>
+                    <img src="img/close.png" class="md-close" />
+                </div>
+            </div>
+            <div id="framebutton111">
+                <div id="friend" class="framebutinside">
+                    <img src="img/201719-200.png">
+                    <div class="linee"></div>
+                    <p>Friend</p>
+                    <div class="linee2"></div>
+                    <img id="img222" src="img/mail-6.png">
+                </div>
+                <div id="family" class="framebutinside">
+                    <img src="img/956215-200.png">
+                    <div class="linee"></div>
+                    <p>Family</p>
+                    <div class="linee2"></div>
+                    <img id="img222" src="img/mail-6.png">
+                </div>
+                <div id="crush" class="framebutinside">
+                    <img src="img/1308-200.png">
+                    <div class="linee"></div>
+                    <p>Crush</p>
+                    <div class="linee2"></div>
+                    <img id="img222" src="img/mail-6.png">
+                </div>
+                <button class="md-trigger" data-modal="modal-13" id="button1"></button>
+                <button class="md-trigger" data-modal="modal-11" id="button2"></button>
+                <button class="md-trigger" data-modal="modal-6" id="button3"></button>
+            </div>
+            <div class="md-overlay"></div>
+
+        </div>
+
+        <!-- AUTHORS -->
+        <div class="section" id="section3">
+            <div id="frame11">
+                <aside class="profile-card1">
+                    <header>
+                        <a href="https://fb.com/JokerGreyHat">
+                            <img src="https://lh3.googleusercontent.com/IsXlMWXfDzBfSAdsZxiQtpRjX7AfHh9BxXaJBzkftg2CYOS7VwhxNsImW7d-bYuTuyzpnHQYS56TlKh7CoAHWvB4lyv4oJE1">
+                        </a>
+                        <h1>Joker Dark Knight</h1>
+                        <h2>Main Author</h2>
+                    </header>
+                    <div class="profile-bio">
+                        <p>Hello there!</p>
+                        <p>Thanks a lot for downloading & using my project!!
+                            <br />I hope you wll enjoy it.
+                            <br /> Keep supporting us!
+                            <br />Merry christmas!!
+                        </p>
+                    </div>
+                    <ul class="profile-social-links">
+                        <li>
+                            <a href="https://twitter.com/LuciferAngelSec">
+                                <img src="img/twitter.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://fb.com/JokerGreyHat">
+                                <img src="img/fb.png">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://mafiascripts-vn.blogspot.com">
+                                <img src="img/web.png">
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+            <div id="frame12">
+                <aside class="profile-card2">
+                    <header>
+                        <a href="http://fb.com/100004823108275">
+                            <img src="img/25394231_628128270691271_759564415_n.jpg">
+                        </a>
+                        <h1>Lê Viết Hưng</h1>
+                        <h2>Developer</h2>
+                    </header>
+                    <div class="profile-bio">
+                        <p></p>
+                        <br />
+                        <p>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </p>
+                    </div>
+                    <ul class="profile-social-links">
+                        <li>
+                            <a href="http://fb.com/100004823108275">
+                                <img src="img/fb.png">
+                            </a>
+                        </li>
+
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+	<!-- BACKGROUND MUSIC -->
+	<iframe width="0" height="0" src="http://www.youtube.com/embed/rNKOqLRIMTM?rel=0;autoplay=1" frameborder="0" allowfullscreen></iframe>
+
+    <!-- JS -->
+    <script src="js/modalEffects.js"></script>
+    <script type="text/javascript" src="js/classie.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script type="text/javascript" src="pagePiling.js/js/jquery.pagepiling.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+             * Plugin intialization
+             */
+            $('#pagepiling').pagepiling({
+                direction: 'horizontal',
+                menu: '#menu',
+                anchors: ['page1', 'page2', 'page3', 'page4'],
+                sectionsColor: ['', '', '', ''],
+                navigation: {
+                    'position': 'right',
+                    'tooltips': ['Home', 'Wishes', 'About', 'Pgae 4']
+                },
+                afterRender: function() {
+                    $('#pp-nav').addClass('custom');
+                },
+                afterLoad: function(anchorLink, index) {
+                    if (index > 1) {
+                        $('#pp-nav').removeClass('custom');
+                    } else {
+                        $('#pp-nav').addClass('custom');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
